@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"]:checked + div {height :0px}
+        div {overflow: hidden; width:650px ; height: 300px;
+            /*변환효과적용*/
+        -ms-transition-duration :1s;
+        -webkit-transition-duration:1s ;
+        -moz-transition-duration:1s;
+            transition-duration: 1s
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>lorem ipsum</h1>
+        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+    </div>
+</body>
+</html>
